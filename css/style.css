@@ -4,8 +4,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     box-sizing: border-box;
-    border: none;
-    outline: none;}
+
+}
 
     img {max-width: 100%;}
     ul {list-style:none;}
@@ -55,6 +55,12 @@
     .sobre h2{
         margin-bottom: 15px;
         text-align: center;
+
+    }
+
+    .sobre p{
+        text-align: center;
+
     }
 
 
@@ -80,6 +86,24 @@
 
     .newsletter p{
         font-size: 0.8em;
-        color: #fff
+        color: #fff;
+
     }
+
+    fieldset {
+    width: 350px;              /* largura do quadrado */
+    margin: 30px auto;          /* centraliza horizontalmente */
+    padding: 20px;              /* espaço interno */
+    border: 2px solid #777;  /* borda */
+    border-radius: 8px;         /* cantos arredondados */
+    background-color: #e3e1e1;  /* fundo claro */
+}
+
+
+    .btn-enviar{
+        background-color: #858484;
+    }
+
+
+
 
